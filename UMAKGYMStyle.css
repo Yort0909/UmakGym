@@ -1,0 +1,2299 @@
+.body{
+	width: device-width;
+	height: auto;
+
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("font/Raleway-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("font/Inter-Regular.ttf");
+}
+
+
+
+body, html {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+.searchbutton{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+	background: url(images/search.png);
+}
+
+.verticalbar{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navlink{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+	color: #000;	
+	font-family: Raleway;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+}
+
+.navbar a{
+	text-decoration: none;
+}
+
+.cta a{
+	text-decoration: none;
+}
+
+.quicklinks {
+	text-decoration: none;
+}
+
+.seemore a{
+	text-decoration: none;
+}
+.navbar{
+    overflow: hidden;
+	margin-right: 20%;
+		margin-top: 10px;
+}
+
+.aboutusbutton:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: scale(1.1);
+	margin-right: 19px;
+}
+
+
+.banner {
+    text-align: center;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    color: black;
+	width: 100%;
+}
+
+.small-text {
+    font-size: 20px;
+	color: #FFCD32;
+	font-family: Raleway;
+	font-style: italic;
+}
+
+h1 {
+    margin: 20px 0;
+	color: rgba(255, 255, 255, 0.85);
+	font-family: Raleway;
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+
+.about-us {
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 200px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    margin: -900px -2599px -10px -1000px;
+    transition-duration: 0.4s;
+    position: relative;
+    background-color: #111C4E;
+    right: 100px;
+    text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.gallerybody:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    opacity: 80%;
+	transition: opacity 0.5s ease;
+}
+
+
+.heroimage{
+	width: 100%;
+	height: 352px;
+	flex-shrink: 0;
+	object-fit: cover;
+	position: relative;
+	z-index: 0;
+}
+
+.heroimagetext {
+    position: absolute;
+    top: -150px;
+    left: 150px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: flex-start;
+}
+
+.aboutusbutton{
+	width: auto;
+	height: 51px;
+	flex-shrink: 0;
+	background-color: #111C4E;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	margin: -30px  0px 0px 1458px;
+	padding-top: 0.1px;
+}
+
+.cta a{
+	color: #FFF	;
+	text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Raleway;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 81px;
+	padding-top: 7px;
+	text-align: left;
+	margin: 5px 0px 10px 10px;
+	display: block;
+	float: left;
+
+}
+
+h3{
+	margin-left: 350px;
+	color: black;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: bold;
+	font-weight: 1000;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.featuredimage{
+	margin-left: 350px;
+}
+
+.flavortext{
+	margin-top: -315px;
+	margin-left: 20px;
+	color: #FFF;
+	font-family: Raleway;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	
+}
+
+.rectangle1 {
+  display: block;
+  margin-top: -3.2%;
+  margin-left: 50%;
+  width: 248px;
+  height: 311px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #FFF;
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.rectangle2 {
+  display: block;
+  margin-top: -16.5%;
+  margin-left: 1220px;
+  width: 248px;
+  height: 311px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #FFF;
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.beginner{
+	border-top: 50px;
+	position: relative;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.80);
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+
+.equipment{
+	border-top: 50px;
+	position: relative;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.80);
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+h5{
+	border-top: 50px;
+	padding: 7px;
+	position: relative;
+	color: rgba(0, 0, 0, 0.80);
+	font-family: Raleway;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.seemore {
+	margin-bottom: 10px;
+	margin-left: 30%;
+	display: block;
+	width: 90px;
+	height: 28px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #111C4E;
+	position: relative;
+	box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.seemore:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    opacity: 80%;
+    transform: scale(1.05); 
+}
+
+.seemoretext a{	
+	margin: auto;
+	margin-left: 15px;
+	text-align: center;
+	color: white;
+	font-family: Raleway;
+	position: absolute;
+	margin-top: 6px;
+	font-size: 13px;
+}
+
+.gallerybody{
+	margin-top: 30px;
+	margin-left: 18.5%;
+	justify-content: center;
+	display: inline-block;
+}
+
+.seemore2 {
+	margin-bottom: 10px;
+	margin-left: 48%;
+	display: block;
+	width: 90px;
+	height: 28px;
+	flex-shrink: 0;
+	border-radius: 5px;
+	background: #111C4E;
+	position: absolute;
+	box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+	
+}
+.seemoretext2 a{
+	margin-top: -10px;
+	margin: auto;
+	margin-left: 15px;
+	text-align: center;
+	color: white;
+	font-family: Raleway;
+	position: absolute;
+	margin-top: 6px;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.rect {
+	margin-top: 30px;
+    height: 3px;
+    width: 60%;
+    position: absolute;
+    margin-left: 18.5%;
+    background-color: #000;
+}
+
+.guides-banner {
+	width: 100%;
+	height: 352px;
+	flex-shrink: 0;
+	object-fit: cover;
+	position: relative;
+	left: auto;
+	right: auto;
+}
+
+.horizontal_bar {
+	margin-top: 50px;
+	height: 3px;
+	width: auto;
+	background-color: black
+}
+
+.horizontal_bar2 {
+	margin-top: 32px;
+	height: 3px;
+	width: auto;
+	background-color: black
+}
+
+.bar_text {
+	margin-top: 34px;
+	color: rgba(0, 0, 0, 0.80);
+	text-align: center;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.equipments_box {
+	margin-top: 24px;
+	width: auto;
+	height: 143px;
+	flex-shrink: 0;
+	background: #111C4E;
+	margin-bottom: 44px;
+	
+}
+
+.equipments {
+	padding-top: 51px;
+	color: #FFCD32;
+	text-align: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Raleway;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.equipment_container {
+	margin-left: 10px;
+	margin-bottom: 44px;
+}
+
+.stationary_bike_1 {
+	margin-left: 290px;
+	transition: background-image 0.5s ease;
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	padding: 0px;
+}
+
+.stationary_bike_2 {
+	margin-top: -340px;
+	margin-left: 290px;
+	transition: background-image 0.5s ease;
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.stationary_bike_2 p{
+	margin-left: 25px;
+	margin-top: -260px;
+	color: #FFF;
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	z-index: 1;
+}
+
+.stationary_bike_1:hover{
+	opacity: 0%;
+	z-index: 2;
+	transition: opacity 0.5s ease;
+}
+
+.punching_bag_1 {
+	margin-left: 31px;
+	transition: background-image 0.5s ease;
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	padding: 0px;
+}
+
+.punching_bag_2 {
+	margin-top: -340px;
+	margin-left: 615px;
+	transition: background-image 0.5s ease;
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.punching_bag_2 p{
+	margin-left: 25px;
+	margin-top: -260px;
+	color: #FFF;
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	z-index: 1;
+}
+
+.punching_bag_1:hover{
+	opacity: 0%;
+	z-index: 2;
+	transition: opacity 0.5s ease;
+}
+
+
+.pulldown_1 {
+	margin-left: 31px;
+	transition: background-image 0.5s ease;
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	padding: 0px;
+}
+
+.pulldown_2 {
+	margin-top: -340px;
+	margin-left: 1265px;
+	transition: background-image 0.5s ease;
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.pulldown_2 p{
+	margin-left: 25px;
+	margin-top: -260px;
+	color: #FFF;
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	z-index: 1;
+}
+
+.pulldown_1:hover{
+	opacity: 0%;
+	z-index: 2;
+	transition: opacity 0.5s ease;
+}
+
+@media only screen and (max-width: 600px) {
+	.body{
+		width: auto;
+		height: auto;
+		}
+	
+	.equipment_container, .equipment_container2 {
+		padding-top: 1px;
+	}
+	
+	.equipments_box{
+		margin-top: 60px;
+		margin-bottom: 30px;
+	}
+	
+  .dip_assist_1m, .treadmill_1m, .medicine_ball_1m, .stationary_bike_1, .punching_bag_1, .pulldown_1, .leg_extension_1m, .chest_press_1m, .shoulder_press_1m, .pec_fly_1m, .GFTS_1m, .stretch_trainer_1m, .v_crunch_1m, .stepper_1m, .recumbent_bike_1m, .dumbbelll_1m, .deadlift_1m,
+.stationary_bike_1, .punching_bag_1, .pulldown_1, .leg_extension_1m, .chest_press_1m, .shoulder_press_1m, .stationary_bike_1m, .punching_bag_1m, .barbell_1m, .pulldown_1m{
+	padding-top: 160px;
+    margin: 0px 10%;
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .leg_extension_1m{
+	  margin-top: -150px;
+  }
+
+  .dip_assist_2m, .treadmill_2m, .medicine_ball_2m, .stationary_bike_2, .punching_bag_2, .pulldown_2, .leg_extension_2m, .chest_press_2m, .shoulder_press_2m, .pec_fly_2m, .GFTS_2m, .stretch_trainer_2m, .v_crunch_2m, .stepper_2m, .recumbent_bike_2m, .dumbbelll_2m, .deadlift_2m,
+.stationary_bike_2, .punching_bag_2, .pulldown_2, .leg_extension_2m, .chest_press_2m, .shoulder_press_2m, .stationary_bike_2m, .punching_bag_2m, .barbell_2m, .pulldown_2m {
+    margin-top: -340px;
+    margin-left: 10%;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .dip_assist_2m p, .treadmill_2m p, .medicine_ball_2m p, .chest_press_2m p, .shoulder_press_2m p, .leg_extension_2m p, .stationary_bike_2m p, .punching_bag_2m p, .pulldown_2m p, .pec_fly_2m p, .GFTS_2m p, .stretch_trainer_2m p, .v_crunch_2m p, .stepper_2m p, .recumbent_bike_2m p, .dumbbelll_2m p, .deadlift_2m p, .chest_press_2m p, .shoulder_press_2m p, .leg_extension_2m p, .stationary_bike_2m p, .punching_bag_2m p, .pulldown_2m p, .barbell_2m p   {
+    padding-top: -340px;
+    margin-left: 27px;
+    margin-top: -260px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    z-index: 1;
+  }
+  
+  .dip_assist_1m:hover, .treadmill_1m:hover, .medicine_ball_1m:hover, .stationary_bike_1m:hover, .punching_bag_1m:hover, .barbell_1m:hover, .pulldown_1m:hover, .leg_extension_1m:hover, .chest_press_1m:hover, .shoulder_press_1m:hover, .pec_fly_1m:hover, .dip_assist_1m:hover, .GFTS_1:hover, .stretch_trainer_1m:hover, .v_crunch_1m:hover, .treadmill_1m:hover, .stepper_1m:hover, .recumbent_bike_1m:hover, .dumbbell_1m:hover, .medicine_ball_1m:hover, .deadlift_1m:hover, .chest_press_1m:hover, .shoulder_press_1m:hover, .stationary_bike_1m:hover, .punching_bag_1m:hover, .barbell_1m:hover, .pulldown_1m:hover, .leg_extension_1m:hover, .chest_press_1m:hover, .shoulder_press_1m:hover, .pec_fly_1m:hover, .dip_assist_1m:hover, .GFTS_1:hover, .stretch_trainer_1m:hover, .v_crunch_1m:hover, .treadmill_1m:hover, .stepper_1m:hover, .recumbent_bike_1m:hover, .dumbbell_1m:hover, .medicine_ball_1m:hover, .deadlift_1m:hover, .chest_press_1m:hover, .shoulder_press_1m:hover,
+.pec_fly_1m:hover, .GFTS_1m:hover, .stretch_trainer_1m:hover, .v_crunch_1m:hover, .stepper_1m:hover, .recumbent_bike_1m:hover, .dumbbelll_1m:hover, .deadlift_1m:hover {
+	opacity: 0%;
+	z-index: 2;
+	transition: opacity 0.5s ease;
+	}
+	
+	.stationary_bike_1m{
+		padding-top: 31px;
+	}
+	
+	.footer, .credits, .guides-banner, .bannertext, .workoutguidescontainer, .heroimage, .banner, .body h3, .featuredimage, .searchbutton, .verticalbar, .chest_press_1, .chest_press_2, .shoulder_press_1, .shoulder_press_2, .pec_fly_1, .pec_fly_2, .GFTS_1, .GFTS_2, .stretch_trainer_1, .stretch_trainer_2, .v_crunch_1, .v_crunch_2, .stepper_1, .stepper_2, .recumbent_bike_1, .recumbent_bike_2, .dumbbelll_1, .dumbbelll_2, .deadlift_1, .deadlift_2, .maingymarea, .reception, .face, .map-container, .location, .gymlocation, .gymlocationpic, .leg_extension_1, .leg_extension_2, .dip_assist_1, .dip_assist_2, .treadmill_1, .treadmill_2, .medicine_ball_1, .medicine_ball_2, .logo, .stationary_bike_1, .stationary_bike_2, .punching_bag_1, .punching_bag_2, .barbell_1, .barbell_2, .pulldown_1, .pulldown_2{
+		display: none !important;
+		overflow: hidden;	
+	}
+ 
+ 
+.barbell_1 {
+	padding-top: 40px;
+    margin: 0px 10%;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.barbell_2 {
+    margin-top: -340px;
+    margin-left: 10%;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.barbell_2 p{
+    padding-top: -340px;
+    margin-left: 27px;
+    margin-top: -260px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    z-index: 1;
+  }
+
+.barbell_1:hover{
+	opacity: 0%;
+	z-index: 2;
+	transition: opacity 0.5s ease;
+	}
+
+.v_crunch_1m, .stepper_1m, .treadmill_1m, .stepper_1m, .recumbent_bike_1m, .dumbbelll_1{
+
+}
+
+ .equipments_box {
+	margin-top: 24px;
+	width: auto;
+	height: 70px;
+	flex-shrink: 0;
+	background: #111C4E;
+	margin-bottom: 44px;
+}
+
+.equipments {
+	padding-top: 15px;
+	color: #FFCD32;
+	text-align: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Raleway;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.horizontal_bar {
+	margin-top: 100px;
+	height: 3px;
+	width: auto;
+	background-color: black
+}
+
+ .bar_text {
+	margin-top: 10px;
+	margin-bottom: -20px;
+	color: rgba(0, 0, 0, 0.80);
+	text-align: center;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.viewmore{
+	margin-top: 50px;
+	width: 198px;
+	height: 68px;
+	background: #111C4E;
+	margin-left: -60px;
+	color: white;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	border: inset;
+	text-decoration: none;
+}
+
+.rectangle1 {
+  display: block;
+  margin-top: 10%;
+  margin-left: 20%;
+  width: 248px;
+  height: 311px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #FFF;
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.rectangle2 {
+  display: block;
+  margin-top: 20%;
+  margin-left: 20%;
+  width: 248px;
+  height: 311px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #FFF;
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rect {
+	margin-top: 30px;
+    height: 3px;
+    width: 60%;
+    position: absolute;
+    margin-left: 21.5%;
+    background-color: #000;
+}
+
+.gallerybody a img {
+	width: 120%;
+	height: auto;
+	margin-left: -21.5%;
+}
+
+.gallerybody a {
+	margin-top: 30px;
+	justify-content: center;
+	display: inline-block;
+}
+
+.namecontainer{
+	width: auto;
+	height: 80px;
+	max-height: 80px;
+	flex-shrink: 0;
+	background-color: #111C4E;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	margin: 23px 0px 0px -50px;
+	padding: 10px;
+}
+
+.websitename1{
+	color: #FFCD32;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Raleway;
+	font-size: 3vw;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 50px;
+	padding: 20px;
+}
+
+.websitename1{
+	font-size: 20px;
+}
+
+.navbar{
+	margin-top: 20px;
+	display: inline;
+	width: auto;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.slide3{	
+	display: block;
+	width: 90%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.beginnerbox {
+	margin-top: 100px;
+	position: relative;
+	flex-shrink: 0;
+	background: #FFFFFF;
+	max-width: 90%;
+	max-height: 200%;
+}
+
+.beginnerbox iframe {
+	margin-top: 22.5px;
+	margin-left: 21px;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: #FFF;
+	box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.beginnertext {
+	width: 90%;
+	height: 90%;
+	flex-shrink: 0;
+	border-radius: 11px;
+	background: #111C4E;
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.intermediatebox {
+	margin-right: auto;
+	flex-shrink: 0;
+	background: #FFF;
+	max-width: 90%;
+	max-height: 200%;
+}
+
+.intermediatebox iframe {
+	margin-top: 22.5px;
+	margin-left: 21px;
+	max-width: 100%;
+	height: 100%;
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: #FFF;
+	box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.intermediatetext {
+	width: 90%;
+	height: 90%;
+	flex-shrink: 0;
+	border-radius: 11px;
+	background: #111C4E;
+	margin-left: 12%;
+}
+
+
+.intensebox {
+	margin-left: 4%;
+	flex-shrink: 0;
+	background: #FFF;
+	max-width: 90%;
+	max-height: 200%;
+}
+
+.intensebox iframe {
+	margin-top: 22.5px;
+	margin-left: 21px;
+	max-width: 90%;
+	height: 40%;
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: #FFF;
+	box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.intensetext {
+	width: 90%;
+	height: 90%;
+	flex-shrink: 0;
+	border-radius: 11px;
+	background: #111C4E;
+	float: right;
+	margin-right: 19px;
+	z-index: 3;
+}
+
+.videobox{
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+	max-width: 100%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+}
+
+.gymlocation2 {
+	margin-left: 80px;
+	margin-top: 29px;
+	color: #000;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.gymlocationpic2 {
+	margin-top: 12px;
+	border-radius: 8px;
+}
+
+.gymlocationpic2 img {
+	border-radius: 8px;
+	max-width: 90%;
+	margin: 12px 10px;
+}
+
+.face2{
+	margin-top: 86px;	
+}
+
+.face2 img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+.name12{
+	margin-top: 40px;
+	color: rgba(0, 0, 0, 0.80);
+	font-family: Raleway;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.name22{
+	margin-top: 20px;
+	color: rgba(0, 0, 0, 0.80);
+	font-family: Raleway;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.name32{
+	margin-top: 20px;	
+	text-align: center;
+	color: rgba(0, 0, 0, 0.80);
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.horizontal_bar3{
+	height: 3px;
+	width: 90%;
+	flex-shrink: 0;
+	background: #000;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo img{
+	width: 40%;
+	max-height: 40%;
+	flex-shrink: 0;
+	position: relative;	
+	margin-top: -33%;
+	margin-left: -19%;
+}
+}
+
+.viewmore{
+	margin-top: 120px;
+	width: 198px;
+	height: 68px;
+	flex-shrink: 0;
+	background: #111C4E;
+	left: 43%;
+	position: relative;
+	color: white;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+	line-height: 68px;
+	border: inset;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+.rollgallery, .gymlocation2, .gymlocationpic2, .face2, .name12, .name22, .name32, .chest_press_1m, .chest_press_2m, .shoulder_press_1m, .shoulder_press_2m, .pec_fly_1m, .pec_fly_2m, .GFTS_1m, .GFTS_2m, .stretch_trainer_1m, .stretch_trainer_2m, .v_crunch_1m, .v_crunch_2m, .stepper_1m, .stepper_2m, .recumbent_bike_1m, .recumbent_bike_2m, .dumbbelll_1m, .dumbbelll_2m, .deadlift_1m, .deadlift_2m, .leg_extension_1m, .leg_extension_2m, .treadmill_1m, .treadmill_2m, .stationary_bike_1m, .stationary_bike_2m, .punching_bag_1m, .punching_bag_2m, .barbell_1m, .barbell_2m, .pulldown_1m, .pulldown_2m, .medicine_ball_1m, .medicine_ball_2m{
+	display: none !important;
+}
+
+.namecontainer{
+	margin-left: 20%;
+	width: auto;
+	height: 80px;
+	max-height: 80px;
+	flex-shrink: 0;
+	background-color: #111C4E;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	margin: 23px 0px 0px 204px;
+	padding: 10px;
+}
+
+.logo img{
+	width: 110px;
+	max-height: 110px;
+	flex-shrink: 0;
+	position: relative;	
+	margin-top: -86px;
+	margin-left: -5%;
+}
+
+.websitename1{
+	color: #FFCD32;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Raleway;
+	font-size: 3vw;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 81px;
+	padding-top: 7px;
+}
+
+
+
+.beginnerbox {
+	width: 50%;
+	margin: auto;
+	width: 1115px;
+	height: 491px;
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: #FFF;
+	box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+.intermediatebox {
+	margin-top: 50px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1115px;
+	height: 491px;
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: #FFF;
+	box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.intensebox {
+	margin-top: 50px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1115px;
+	height: 491px;
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: #FFF;
+	box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.horizontal_bar3{
+	height: 3px;
+	width: auto;
+	flex-shrink: 0;
+	background: #000;
+	margin-top: 300px;
+}
+
+
+.barbell_1 {
+	margin-left: 31px;
+	transition: background-image 0.5s ease;
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	padding: 0px;
+}
+
+.barbell_2 {
+	margin-top: -340px;
+	margin-left: 940px;
+	transition: background-image 0.5s ease;
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.barbell_2 p{
+	margin-left: 25px;
+	margin-top: -260px;
+	color: #FFF;
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	z-index: 1;
+}
+
+.barbell_1:hover{
+	opacity: 0%;
+	z-index: 2;
+	transition: opacity 0.5s ease;
+}
+}
+
+
+.viewmore a{
+	color: white;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+	line-height: 68px;
+	text-decoration: none;
+}
+
+.workoutguidescontainer {
+	margin-top: 50px;
+	width: auto;
+	height: 143px;
+	flex-shrink: 0;
+	background: #111C4E;
+	margin-bottom: 44px;
+}
+
+.workoutguidescontainer_text {
+	padding-top: 51px;
+	color: #FFCD32;
+	text-align: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Raleway;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+
+
+.beginnerbox iframe {
+	margin-top: 22.5px;
+	margin-left: 21px;
+	width: 770px;
+	height: 446px;
+}
+
+.beginnertext {
+	width: 309px;
+	height: 491px;
+	flex-shrink: 0;
+	border-radius: 11px;
+	background: #111C4E;
+	float: right;
+}
+
+.beginnertext h1 {
+	margin-top: 25px;
+	color: #FFF;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.beginnertextbar {
+	width: 254px;
+	height: 3px;
+	flex-shrink: 0;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+	margin: auto;
+}
+
+.beginnersubtext{
+	margin-top: 20px;
+	font-family: Raleway;
+	font-size: 16.5px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 28px;
+	color: #FFF;
+}
+
+.beginnersubtext a{
+	color: #FFCD32;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+
+
+.intermediatebox iframe {
+	margin-top: 22.5px;
+	margin-left: 21px;
+	width: 770px;
+	height: 446px;
+}
+
+.intermediatetext {
+	width: 309px;
+	height: 491px;
+	flex-shrink: 0;
+	border-radius: 11px;
+	background: #111C4E;
+	float: left;
+}
+
+.intermediatetext h1 {
+	margin-top: 25px;
+	color: #FFF;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.intermediatetextbar {
+	width: 254px;
+	height: 3px;
+	flex-shrink: 0;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+	margin: auto;
+}
+
+.intermediatesubtext{
+	margin-top: 20px;
+	font-family: Raleway;
+	font-size: 16.5px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 28px;
+	color: #FFF;
+}
+
+.intermediatesubtext a{
+	color: #FFCD32;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.intensebox iframe {
+	margin-top: 22.5px;
+	margin-left: 21px;
+	width: 770px;
+	height: 446px;
+}
+
+.intensetext {
+	width: 309px;
+	height: 491px;
+	flex-shrink: 0;
+	border-radius: 11px;
+	background: #111C4E;
+	float: right;
+}
+
+.intensetext h1 {
+	margin-top: 25px;
+	color: #FFF;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.intensetextbar {
+	width: 254px;
+	height: 3px;
+	flex-shrink: 0;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+	margin: auto;
+}
+
+.intensesubtext{
+	margin-top: 20px;
+	font-family: Raleway;
+	font-size: 16.5px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 28px;
+	color: #FFF;
+}
+
+.intensesubtext a{
+	color: #FFCD32;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+	.leg_extension_1 {
+		margin-left: 15.46%;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.leg_extension_2 {
+		margin-left: -294px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.leg_extension_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.leg_extension_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.chest_press_1 {
+		margin-left: 31px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.chest_press_2 {
+		margin-left: -294px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.chest_press_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.chest_press_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.shoulder_press_1 {
+		margin-left: 31px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.shoulder_press_2 {
+		margin-left: -294px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.shoulder_press_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.shoulder_press_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.pec_fly_1 {
+		margin-left: 31px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.pec_fly_2 {
+		margin-left: -290px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.pec_fly_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.pec_fly_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.dip_assist_1 {
+		margin-top: 44px;
+		margin-left: 15.46%;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.dip_assist_2 {
+		margin-top: 44px;
+		margin-left: -294px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.dip_assist_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.dip_assist_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.GFTS_1 {
+		margin-left: 31px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.GFTS_2 {
+		margin-top: 44px;
+		margin-left: -294px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.GFTS_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.GFTS_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.stretch_trainer_1 {
+		margin-left: 31px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.stretch_trainer_2 {
+		margin-top: 44px;
+		margin-left: -294px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.stretch_trainer_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.stretch_trainer_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.v_crunch_1 {
+		margin-left: 31px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.v_crunch_2 {
+		margin-top: 44px;
+		margin-left: -290px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.v_crunch_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.v_crunch_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.treadmill_1 {
+		margin-top: 44px;
+		margin-left: 15.46%;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.treadmill_2 {
+		margin-top: 44px;
+		margin-left: -294px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.treadmill_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.treadmill_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.stepper_1 {
+		margin-left: 31px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.stepper_2 {
+		margin-top: 44px;
+		margin-left: -294px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.stepper_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.stepper_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.recumbent_bike_1 {
+		margin-left: 31px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.recumbent_bike_2 {
+		margin-top: 44px;
+		margin-left: -294px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.recumbent_bike_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.recumbent_bike_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.dumbbelll_1 {
+		margin-left: 31px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.dumbbelll_2 {
+		margin-top: 44px;
+		margin-left: -290px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.dumbbelll_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.dumbbelll_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.medicine_ball_1 {
+		margin-top: 44px;
+		margin-left: 15.46%;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.medicine_ball_2 {
+		margin-top: 44px;
+		margin-left: -294px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.medicine_ball_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.medicine_ball_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.deadlift_1 {
+		margin-left: 31px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: relative;
+		z-index: 2;
+		padding: 0px;
+	}
+
+	.deadlift_2 {
+		margin-top: 44px;
+		margin-left: -290px;
+		transition: background-image 0.5s ease;
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.deadlift_2 p{
+		margin-left: 25px;
+		margin-top: -260px;
+		color: #FFF;
+		font-family: Raleway;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		z-index: 1;
+	}
+
+	.deadlift_1:hover{
+		opacity: 0%;
+		z-index: 2;
+		transition: opacity 0.5s ease;
+	}
+
+	.maingymarea{
+		width: 1114px;
+		height: 629px;
+		flex-shrink: 0;
+		border-radius: 9px;
+		background: #FFF;
+		box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);	
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.maingymarea p{
+	color: #111C4E;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slider {
+    position: relative;
+	display: inline-block;
+	width: 95%;
+	height: 70%;
+	flex-shrink: 0;
+	border-radius: 9px;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+	margin-left: 21px;
+	margin-top: 39px;
+
+}
+  .slides {
+    display: flex;
+    overflow: hidden;
+}
+  .slide {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+}
+  .slider-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dot {
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    background: #ccc;
+	border-radius: 50%;
+}
+
+.dot.active {
+    background: #FFCD32;
+}
+
+.reception {
+	margin-top: 33px;
+	width: 1114px;
+	height: 629px;
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reception p{
+	color: #111C4E;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.vertbar2 {
+	width: 161px;
+	height: 5px;
+	flex-shrink: 0;
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+	z-index: 1;
+	margin-top: 110px;
+	margin-left: 340px;
+	position: absolute;
+}
+
+.hero_imagetext {
+	color: #FFCD32;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Raleway;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	z-index: 1;
+	margin-top: 103px;
+	margin-left: 520px;
+	position: absolute;
+}
+
+.hero_imagetext2 {
+	color: rgba(255, 255, 255, 0.85);
+	font-family: Raleway;
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	z-index: 1;
+	margin-top: 150px;
+	margin-left: 340px;
+	position: absolute;
+}
+
+.face{
+	margin-left: 340px;
+	margin-top: 86px;	
+}
+
+.name1{
+	margin-top: -430px;
+	margin-left: 560px;
+	color: rgba(0, 0, 0, 0.80);
+	font-family: Raleway;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.name2{
+	margin-top: 10px;
+	margin-left: 560px;
+	color: rgba(0, 0, 0, 0.80);
+	font-family: Raleway;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.name3{
+	margin-top: 10px;
+	margin-left: 560px;
+	color: rgba(0, 0, 0, 0.80);
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.location{
+	margin-top: 25px;
+	margin-left: 20%;
+	color: #000;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.map-container {
+	position: relative;
+	width: 1118px;
+	height: 477px;
+	flex-shrink: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border-radius: 8px;
+}
+
+.map-container iframe {
+    position: absolute;
+  	width: 1118px;
+	height: 477px;
+	border-radius: 8px;
+}
+
+.gymlocation {
+	margin-top: 29px;
+	margin-left: 365px;
+	color: #000;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.gymlocationpic {
+	margin-top: 12px;
+	border-radius: 8px;
+	margin-left: 365px;
+}
+
+.guidelinestext {
+	margin-top: 22px;
+	color: #000;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.guidelinescontainer {
+	margin-top: 15px;
+	border-radius: 9px;
+	background: rgba(255, 255, 255, 0.52);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	width: 1074px;
+	height: 700px;
+	flex-shrink: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.guidelinescontainertext {
+	opacity: 0.8;
+	color: #000;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Raleway;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin: auto;
+	padding: 35px 55px;
+}
+
+.guidelinescontainertext b {
+	color: #111C4E;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Raleway;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.horizontalbar4 {
+	height: 3px;
+	width: 60%;
+	flex-shrink: 0;
+	background: #000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 56px;
+}
+
+.categories {
+	margin-top: 39px;
+	color: #000;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.categoriescontainer {
+	width: 1074px;
+	height: 444px;
+	flex-shrink: 0;
+	border-radius: 9px;
+	background: rgba(255, 255, 255, 0.52);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 13px;
+	padding: 24px;
+}
+
+.verticalbar3{
+	width: 3px;
+	height: 98%;
+	flex-shrink: 0;
+	background: #000;
+	margin-left: 50%;
+	position: relative;
+}
+
+.text1 {
+	color: #000;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-top: -40%;
+}
+
+.text2{
+	margin-left: 30%;
+	margin-top: -37.7%;
+	color: #000;
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.payment {
+	color: #000;
+	font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	margin-top: -45%;
+	margin-left: 52%;
+}
+
+.numberedlist {
+	color: #000;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	padding: 3px;
+}
+
+
+.footer {
+	margin-top: 30px;
+	width: auto;
+	height: 216px;
+	flex-shrink: 0;
+	background: #fff;
+	box-shadow: 6px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.credits{
+	width: auto;
+	height: 40.714px;
+	flex-shrink: 0;
+	background: #111C4E;
+}
+
+.righttext{
+	padding-top: 34px;
+	margin-left: 10%;
+}
+
+.righttext ul {
+	display: inline;
+	color: #000;
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	margin-left: 4%;
+}
+
+.quicklinkstest {
+	margin-left: 25.1%;
+	color: #111C4E;
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+.quicklinkstest a{
+	text-decoration: none;
+	color: #FFCD32;
+}
+
+.fb {
+	margin-left: 34.7%;
+	margin-top: -60px;
+}
+
+.logosmall {
+	text-align: right;
+	margin-top: -34px;
+	margin-right: 800px;
+}
+
+.logotext {
+	color: #000;
+	text-align: right;
+	font-family: Raleway;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	margin-right: 100px;
+	margin-top: -34px;
+	margin-right: 540px;
+}
+
+.footerflavortext {
+	text-align: right;
+	margin-right: 540px;
+	margin-top: 20px;
+	color: #000;
+	text-align: right;
+	font-family: Inter;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.verticalbar5 {
+	width: 1px;
+	height: 162px;
+	flex-shrink: 0;
+	background: #000;
+	margin-left: 1350px;
+	margin-top: -140px;
+}
+
+.gymlogo2{
+	margin-left: 1360px;
+	margin-top: -155px;
+}
+
+.creditstext {
+	color: rgba(255, 255, 255, 0.76);
+	font-family: Raleway;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	padding-top: 15px;
+	padding-left: 290px;
+}
