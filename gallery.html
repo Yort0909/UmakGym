@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</meta>
+    <link href="UMAKGYMStyle.css" rel="stylesheet" type="text/css"> 
+</head>	
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.transform = "translateX(" + (-100 * (slideIndex - 1)) + "%)";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  dots[slideIndex-1].className += " active";
+}
+
+
+
+let slideIndex2 = 1;
+updateReceptionSlides(slideIndex2);
+
+function currentSlide2(n) {
+  updateReceptionSlides(slideIndex2 = n);
+}
+
+function updateReceptionSlides(slideNumber) {
+  let i;
+  let slides = document.getElementsByClassName("slide2");
+  let dots = document.getElementsByClassName("dot2");
+  if (slideNumber > slides.length) { slideIndex2 = 1; }
+  if (slideNumber < 1) { slideIndex2 = slides.length; }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.transform = "translateX(-100%)";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active2", "");
+  }
+  slides[slideIndex2 - 1].style.transform = "translateX(0)";
+  dots[slideIndex2 - 1].className += " active2";
+}
+
+</script>
+
+	<header>
+	<div class="header">
+		<div class="namecontainer">
+			<div class="websitename1">
+			UNIVERSITY'S FITNESS GYM CENTER
+			</div>
+			<div class="logo">
+			<img src="images/logo.png">
+			</div>
+		</div>
+		<div class="navbar">
+			<div class="aboutus">
+				<a href="aboutus.html" class="navlink">About Us</a>
+			</div>
+			<div class="gallery">
+				<a href="gallery.html" class="navlink"style="text-decoration: underline;">Gallery</a>
+			</div>
+			<div class="guides">
+				<a href="guides.html" class="navlink">Guides</a>
+			</div>
+			<div class="home2">
+				<a href="index.html" class="navlink">Home</a>  
+			</div>
+			<div class="verticalbar">|
+			</div>		
+			<div class="searchbutton">
+				<img src="images/search.png" style="height: 23px; width: 22px;">
+			</div>
+		</div>
+	</div>	
+	</header>
+	<div class="body">
+	<body>
+		<div class="bannertext">
+			<div class="vertbar2"></div>
+			<div class="hero_imagetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+			<div class="hero_imagetext2">Around the<br>university's gym</div>
+		</div>
+		<div class="guides-banner">
+		<img src="images/guides-banner.png">
+		</div>
+		<div class="horizontal_bar">
+		</div>
+		<div class="bar_text">
+		Lorem ipsum dolor sit amet, <br>
+		consectetur adipiscing elit. <br>
+		Nullam mattis rhoncus est sit <br>
+		amet tristique.
+		</div>
+		<div class="horizontal_bar2">
+		</div>
+		<div class="equipments_box">
+			<div class="equipments">
+			virtual tour
+			</div>
+		</div>
+	
+	<div class="maingymarea">
+		<div class="slider">
+		  <div class="slides">
+			<img class="slide" src="images/maingym1.png" alt="Image 1">
+			<img class="slide" src="images/maingym2.png" alt="Image 2">
+			<img class="slide" src="images/maingym3.png" alt="Image 3">
+		  </div>
+		  <div class="slider-nav">
+			<div class="dot active" onclick="currentSlide(1)"></div>
+			<div class="dot" onclick="currentSlide(2)"></div>
+			<div class="dot" onclick="currentSlide(3)"></div>
+		  </div>
+		</div>
+		<p>Main Gym Area</p>
+		</div>
+
+	
+		<div class="reception">
+			<div class="slider">
+				<div class="slides">
+				  <img class="slide" src="images/reception1.png" alt="Image 1">
+				  <img class="slide" src="images/reception2.png" alt="Image 2">
+				  <img class="slide" src="images/reception3.png" alt="Image 3">
+				</div>
+				<div class="slider-nav">
+				  <div class="dot active" onclick="currentSlide(1)"></div>
+				  <div class="dot" onclick="currentSlide(2)"></div>
+				  <div class="dot" onclick="currentSlide(3)"></div>
+				</div>
+			</div>
+			<p>Reception and Lounge</p>
+		</div>
+
+		<div class="rollgallery">
+				<img class="slide3" src="images/maingym1.png" alt="Image 1">
+				<img class="slide3" src="images/maingym2.png" alt="Image 2">
+				<img class="slide3" src="images/maingym3.png" alt="Image 3">
+				<img class="slide3" src="images/reception1.png" alt="Image 1">
+				<img class="slide3" src="images/reception2.png" alt="Image 2">
+				<img class="slide3" src="images/reception3.png" alt="Image 3">
+			</div>
+	</body>
+	</div>
+<footer>
+		<div class="footer">
+			<div class="righttext">
+				<ul>Company</ul>
+				<ul>Quicklinks</ul>
+				<ul>Find us On</ul>
+			</div>
+				<div class="quicklinkstest">
+					<div class="gymmanager">
+						<a href="aboutus.html">Gym Manager</a>
+					</div>
+					<div class="rules">
+						<a href="joinnow.html">Rules</a>
+					</div>
+					<div class="prices">
+						<a href="joinnow.html">Prices</a>
+					</div>
+					<div class="workoutguides">
+						<a href="guides.html">Workout Guides</a>
+					</div>
+				</div>
+				<div class="fb">
+					<a href="https://www.facebook.com/Umakfitnessgym/"><img src="images/fb.png"></a>
+				</div>
+			<div class="lefttext">
+				<div class="logosmall">	
+					<img src="images/logosmall.png">
+				</div>
+				<div class="logotext">
+				University of Makati
+				</div>
+				<div class="footerflavortext">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+				Nullam mattis rhoncus est sit amet tristique.<br><br>
+				The University of Makati (UMak) is a locally funded university of the<br>
+				local government of Makati and is recognized <br>
+				by Commission on Higher Education.<br>
+				</div>
+				<div class="verticalbar5">
+				</div>
+				<div class="gymlogo2">
+					<img src="images/gymlogo.png">
+				</div>
+			</div>
+		</div>
+		<div class="credits">
+			<div class="creditstext">Developed by EstudyantEdits | All rights reserved.
+			</div>
+		</div>
+	</footer>
+
+	</div>
+</html>
