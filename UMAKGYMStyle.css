@@ -281,7 +281,7 @@ h3{
 	position: relative;
 	color: rgba(0, 0, 0, 0.80);
 	font-family: Raleway;
-	font-size: 10px;
+	font-size: 12px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
@@ -292,6 +292,7 @@ h3{
 
 .seemore {
 	margin-bottom: 10px;
+	margin-top: -20px;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -2079,6 +2080,7 @@ h3{
 	flex-shrink: 0;
 	margin-left: auto;
 	margin-right: auto;
+	border: 5px solid #111C4E;
 }
 
 .guidelinescontainertext {
@@ -2174,7 +2176,7 @@ h3{
 	text-transform: capitalize;
 }
 
-.payment {
+.payment p {
 	color: #000;
 	font-family: Raleway;
 	font-size: 24px;
@@ -2196,11 +2198,14 @@ h3{
 	font-weight: 700;
 	line-height: normal;
 	padding: 3px;
+	font-size: 24px;
+	margin-top: -20px;
+	margin-left: 52%;
 }
 
 
 .footer {
-	margin-top: 30px;
+	margin-top: 80px;
 	width: auto;
 	height: 216px;
 	flex-shrink: 0;
@@ -2240,6 +2245,7 @@ h3{
 	line-height: normal;
 	text-transform: capitalize;
 	text-decoration: none;
+	color: #111C4E;
 }
 
 .righttext ul {
@@ -2268,7 +2274,7 @@ h3{
 
 .quicklinkstest a{
 	text-decoration: none;
-	color: #FFCD32;
+	color: #111C4E;
 }
 
 .fb {
@@ -2316,12 +2322,12 @@ h3{
 	flex-shrink: 0;
 	background: #000;
 	margin-left: 1380px;
-	margin-top: -140px;
+	margin-top: -165px;
 }
 
 .gymlogo2{
 	margin-left: 1390px;
-	margin-top: -155px;
+	margin-top: -165px;
 }
 
 .creditstext {
